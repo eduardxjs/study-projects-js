@@ -6,7 +6,7 @@ const veiculos = {
     motos: [
         { nome: 'CG Titan 160cc', marca: 'Honda', preco: 18999, km: 2000 }
     ],
-    caminhao: [
+    caminhoes: [
         { nome: 'FH 540', marca: 'Volvo', preco: 80000, km: 50000 }
     ]
 };
@@ -68,4 +68,4 @@ document.getElementById('compraForm').onsubmit = function (e) {
 // Gerar os veículos na página
 gerarVeiculos('carros', veiculos.carros);
 gerarVeiculos('motos', veiculos.motos);
-gerarVeiculos('caminhoes', veiculos.caminhao);
+gerarVeiculos('caminhoes', veiculos.caminhoes);
